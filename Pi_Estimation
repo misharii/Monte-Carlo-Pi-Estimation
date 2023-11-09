@@ -1,0 +1,25 @@
+import random 
+
+# Define the number of trials
+total_trials = 1_000_000  # 1 million trials for a good approximation
+
+# Initialize count of hits inside the circle
+hits = 0
+
+# Conduct the trials
+for _ in range(total_trials):
+    # Sample random x, y points in the range [-1, 1]
+    rx = random.uniform(-1, 1) 
+    ry = random.uniform(-1, 1)
+    # Calculate the square of the distance from the origin (0,0)
+    distance_squared = rx**2 + ry**2
+    # If the point is inside the unit circle, count it as a hit
+    if distance_squared <= 1:
+        hits += 1
+
+# Calculate the approximation of Pi
+pi_estimate = 4 * hits / total_trials
+
+# Print the results
+print(f"Total trials: {total_trials}")
+print(f"Pi approximation: {pi_estimate}")
