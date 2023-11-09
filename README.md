@@ -11,7 +11,9 @@ The program generates random points within a square that bounds a unit circle an
 1. Randomly scatter a large number of points over the square.
 2. Count how many of these points fall inside the circle inscribed in the square.
 3. The ratio of the number of points inside the circle to the total number of points, multiplied by 4, gives an approximation of Pi.
-
+   
+![image](https://github.com/misharii/Monte-Carlo-Pi-Estimation/assets/125268174/eb22057c-c076-4fe9-9bc0-e2e35c5a706f)
+https://www.geogebra.org/m/m9yNrAVy
 ## Usage
 
 To run the simulation, simply execute the script. The number of trials determines the accuracy of the Pi estimation. By default, the script runs 1,000,000 trials, which provides a good balance between accuracy and computational time.
