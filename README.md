@@ -12,6 +12,8 @@ The program generates random points within a square that bounds a unit circle an
 2. Count how many of these points fall inside the circle inscribed in the square.
 3. The ratio of the number of points inside the circle to the total number of points, multiplied by 4, gives an approximation of Pi.
    
+
+   
 ![image](https://github.com/misharii/Monte-Carlo-Pi-Estimation/assets/125268174/eb22057c-c076-4fe9-9bc0-e2e35c5a706f)
 https://www.geogebra.org/m/m9yNrAVy
 ## Usage
@@ -20,6 +22,9 @@ To run the simulation, simply execute the script. The number of trials determine
 
 ## Customization
 You can modify the "total_trials" variable to increase or decrease the number of trials and thus the precision of the Pi estimation.
+
+## Flow Chart
+![image](https://github.com/misharii/Monte-Carlo-Pi-Estimation/assets/125268174/9802ae7a-cd72-4399-bcde-08f29f498f0c "Flow Chart")
 
 ## Disclaimer
 Please note that the Monte Carlo method provides a statistical estimate and therefore each run can produce slightly different results. Additionally, the accuracy of the estimate improves with the number of trials.
